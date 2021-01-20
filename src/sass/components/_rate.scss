@@ -1,0 +1,27 @@
+// RATE COMPONENT
+.rate {
+  display: flex;
+  flex-flow: column wrap;
+  max-width: 50rem;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  color: $very-dark-magenta;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: $light-grayish-magenta;
+
+  &__stars {
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (min-width: 50rem) {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    &__stars {
+      margin: 0 2rem 0 0;
+    }
+  }
+}

@@ -56,5 +56,56 @@ select {
             transition-duration: 0.01ms !important;
     scroll-behavior: auto !important; } }
 
+.rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  max-width: 50rem;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+  color: #502050;
+  font-size: 1.4rem;
+  font-weight: 700;
+  background-color: #f7f2f7; }
+  .rate__stars {
+    margin-bottom: 1rem; }
+  @media screen and (min-width: 50rem) {
+    .rate {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .rate__stars {
+        margin: 0 2rem 0 0; } }
+
+.card__avatar {
+  border-radius: 50%;
+  max-width: 4rem; }
+
+.social {
+  padding: 2rem; }
+  .social__products-title {
+    color: #502050;
+    font-weight: 700;
+    font-size: 3.3rem; }
+  .social__products {
+    text-align: center; }
+  .social__products-text {
+    margin: 3rem 0;
+    font-size: 1.4rem;
+    color: #937b92;
+    font-weight: 500; }
+
 
 /*# sourceMappingURL=/main.da7500e0.css.map */
