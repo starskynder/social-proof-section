@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto; } }
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  width: 100%;
+  max-width: 144rem;
+  margin: auto;
+  line-height: 1.5;
+  font-family: "Spartan", sans-serif;
+  background-color: white; }
+
+html {
+  height: -webkit-fill-available; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none; }
+
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
+    -webkit-transition-duration: 0.01ms !important;
+         -o-transition-duration: 0.01ms !important;
+            transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+
+
+/*# sourceMappingURL=/main.da7500e0.css.map */
