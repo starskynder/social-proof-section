@@ -79,9 +79,9 @@ select {
       -webkit-box-direction: normal;
           -ms-flex-flow: row nowrap;
               flex-flow: row nowrap;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
@@ -201,7 +201,7 @@ select {
             justify-content: center; }
     @media screen and (min-width: 75em) {
       .social__cards {
-        height: 40rem; } }
+        min-height: 35rem; } }
   @media screen and (min-width: 43em) {
     .social__card {
       margin-right: 2rem; } }
