@@ -1,11 +1,11 @@
 // RATE COMPONENT
 .rate {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   max-width: 50rem;
   padding: 2rem;
   border-radius: 5px;
-  margin: 1rem 0;
+
   color: $very-dark-magenta;
   font-size: 1.4rem;
   font-weight: 700;

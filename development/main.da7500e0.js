@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"C:\\Users\\Stargazer\\Documents\\frontendmentor\\social-proof-section-master\\public\\images\\bg-pattern-top-mobile.svg":[["bg-pattern-top-mobile.5debac92.svg","images/bg-pattern-top-mobile.svg"],"images/bg-pattern-top-mobile.svg"],"C:\\Users\\Stargazer\\Documents\\frontendmentor\\social-proof-section-master\\public\\images\\bg-pattern-bottom-mobile.svg":[["bg-pattern-bottom-mobile.e37cad24.svg","images/bg-pattern-bottom-mobile.svg"],"images/bg-pattern-bottom-mobile.svg"],"C:\\Users\\Stargazer\\Documents\\frontendmentor\\social-proof-section-master\\public\\images\\bg-pattern-top-desktop.svg":[["bg-pattern-top-desktop.eabc510c.svg","images/bg-pattern-top-desktop.svg"],"images/bg-pattern-top-desktop.svg"],"C:\\Users\\Stargazer\\Documents\\frontendmentor\\social-proof-section-master\\public\\images\\bg-pattern-bottom-desktop.svg":[["bg-pattern-bottom-desktop.f82eed7d.svg","images/bg-pattern-bottom-desktop.svg"],"images/bg-pattern-bottom-desktop.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64295" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64766" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

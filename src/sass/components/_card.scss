@@ -1,7 +1,38 @@
 // CARD COMPONENT
 .card {
+  background-color: $very-dark-magenta;
+  color: $white;
+  border-radius: 5px;
+  margin: 2rem 0;
+  padding: 3rem;
+  font-size: 1.4rem;
+  max-width: 35rem;
+
+  &__user {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3.5rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
   &__avatar {
     border-radius: 50%;
     max-width: 4rem;
+    margin-right: 2rem;
+    display: block;
+  }
+
+  &__verified {
+    color: $soft-pink;
+  }
+
+  &__name {
+    font-weight: 700;
   }
 }

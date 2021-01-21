@@ -1,0 +1,24 @@
+// FOOTER
+.footer {
+  flex: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  font-size: 1.4rem;
+  padding: 2rem;
+
+  &__link {
+    &:link {
+      color: $dark-grayish-magenta;
+    }
+
+    &:visited {
+      color: $very-dark-magenta;
+    }
+
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
