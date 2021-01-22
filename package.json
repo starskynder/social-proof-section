@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Social proof section challenge by Frontend Mentor",
   "main": "index.js",
-  "homepage": "https://starskynder.github.io/loopstudios-landing-page/",
+  "homepage": "https://starskynder.github.io/social-proof-section/",
   "scripts": {
     "dev": "rm -rf ./development -rf ./.cache && parcel public/index.html --out-dir development -p 3000",
-    "build": "parcel build public/index.html --out-dir dist --public-url ./",
+    "build": "parcel build public/index.html --out-dir dist --public-url /social-proof-section",
     "deploy": "gh-pages -d dist"
   },
   "author": "starskynder",
